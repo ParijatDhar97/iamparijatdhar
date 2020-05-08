@@ -165,6 +165,8 @@ nav #menu li a:hover {
       top: -2px;
       line-height: 80px;
       color:#fff;
+      padding: 0 5px;
+      
 }
 
 #resize {
