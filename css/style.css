@@ -1,5 +1,9 @@
 /*--------------- Font Styles ------------------*/
 @import url('https://fonts.googleapis.com/css?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Proza+Libre&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&display=swap');
+
 
 
 
@@ -13,7 +17,6 @@ html, body {
       height: 100%;
       
       background: #0f0f0f !important;
-      font-family: "Monument Extended";
      
 }
 
@@ -389,7 +392,9 @@ nav #menu li a:hover {
       color: red;
       text-transform: uppercase;
       font-size: 65px;
+      margin-top: 15px;
       margin-bottom: 0%;
+      font-family: 'Francois One', sans-serif;
 }
 
 
@@ -433,7 +438,7 @@ nav #menu li a:hover {
       background-size: cover;
       animation-delay: 2s;
       -webkit-animation: animateGIF 4s cubic-bezier(0,.58,1,.58);
-}
+      }
       
       .hero-section {
      
@@ -446,28 +451,6 @@ nav #menu li a:hover {
 
       }
 
-
-      .hero-title h1 {
-            font-size: 60px;
-            text-align: center;
-
-      }
-      .hero-title .p1 {
-            padding-top: 20px;
-            line-height: 20px;
-            letter-spacing: 1.6px;
-            font-size: 12px;
-      }
-      .hero-title .p2 {
-            font-size: 8px;
-            line-height: 16px;
-            letter-spacing: 1px;
-      }
-      .rotatethis {
-            top: 66%;
-            left: 70%;
-            font-size: 10px;
-      }
 }
 
 .glitch {
@@ -530,19 +513,19 @@ nav #menu li a:hover {
 
 .hero-title .p1 {
       color: #fff;
-      font-family:'Acme', sans-serif;
+      font-family: 'Eczar', serif;
       text-transform: uppercase;
       margin-top: 15px;
-      font-size: 15px;
-      letter-spacing: 13px;
+      font-size: 17px;
+      letter-spacing: 10px;
 }
 .hero-title .p2 {
       color: #fff;
-      font-family:'Acme', sans-serif;
+      font-family: 'Eczar', serif;
       text-transform: uppercase; 
       margin-top: 7px;
-      font-size: 12px;
-      letter-spacing: 10px;
+      font-size: 14px;
+      letter-spacing: 8px;
 }
 #rotated  {
       color: #fff;
@@ -582,6 +565,33 @@ nav #menu li a:hover {
       }
 }
 
+@media(max-width: 479px) {
+
+      .hero-title h1 {
+            font-size: 35px;
+            text-align: center;
+
+      }
+      .hero-title .p1 {
+            padding-top: 20px;
+            line-height: 20px;
+            letter-spacing: 1.5px;
+            font-size: 14px;
+            text-align: center;
+      }
+      .hero-title .p2 {
+            font-size: 10px;
+            line-height: 16px;
+            letter-spacing: 1px;
+            text-align: center;
+      }
+      .rotatethis {
+            top: 66%;
+            left: 70%;
+            font-size: 10px;
+      }
+}
+
 /*--------------- projects section --------------- */
 h6 {
       text-align: center;
@@ -612,6 +622,7 @@ h6 {
       font-size: 36px;
       position: relative;
       color: #fff;
+     
       display: block;
       top: 8%;
       left: -35%;
@@ -631,9 +642,10 @@ h6 {
       font-size: 36px;
       position: relative;
       color: #fff;
+      
       display: block;
       top: 80%;
-      left: 90%;
+      left: 10px;
       right: 0;
       bottom: 0;
 }
@@ -650,9 +662,10 @@ h6 {
       font-size: 36px;
       position: relative;
       color: #fff;
+     
       display: block;
       top: 80%;
-      left: -35%;
+      left: 10px;
       right: 0;
       bottom: 0;
 }
@@ -668,9 +681,10 @@ h6 {
       font-size: 36px;
       position: relative;
       color: #fff;
+     
       display: block;
       top: 10%;
-      left: 90%;
+      left: 10px;
       right: 0;
       bottom: 0;
 }
@@ -687,34 +701,44 @@ h6 {
 }
 @media(max-width: 479px){
       .project {
-            width: 100% !important;
-            margin: 10px 0;
+            width: 70% !important;
+            height: 100px;
+            
+            margin: 20px auto;
             cursor: pointer;
       }
 
       
       .project1::after{
-            top: 15%;
+            top: 25%;
             left: 2%;
             font-size: 22px;
+            color: #333333;
+            background-color:rgba(192,192,192,0.3);
             
       }
       .project2::after{
             top: 35%;
             left: 2%;
             font-size: 22px;
+            color: #333333;
+            background-color:rgba(192,192,192,0.3);
            
       }
       .project3::after{
-            top: 55%;
+            top: 30%;
             left: 2%;
             font-size: 22px;
+            color: #333333;
+            background-color:rgba(192,192,192,0.3);
 
       }
       .project4::after{
-            top: 75%;
+            top: 50%;
             left: 2%;
             font-size: 22px;
+            color: #333333;
+            background-color:rgba(192,192,192,0.3);
       }
 }
 
@@ -855,10 +879,15 @@ h6 {
       margin-left: 0%;
 }
 
+.hero-content h3{
+      font-size: 100px;
+}
+
 .hero-content p {
+      font-size: 20px;
       font-weight: 300;
       line-height: 36px;
-      color: grey;
+      color: #FF00FF;
 }
 
 .hero-content h6 {
@@ -879,19 +908,27 @@ h6 {
             width: 96%;
             margin: 0 auto;
       }
+
+      .hero-content h3{
+            font-size: 50px;
+      }
       
 }
 
 /*---------------about page --------------- */
 
 .about {
-      height: 500px;
+      height: 600px;
       margin-top: 120px;
 }
 
+.hero-content .about-head{
+      font-size: 100px;
+}
+
 .image {
-      background: url(picture.jpg) no-repeat 50% 50%;
-      background-position: center;
+      background: url(picture_main.jpg) no-repeat 50% 50%;
+      background-position: left top;
       
 }
 #rotated1  {
@@ -943,9 +980,11 @@ h6 {
       margin-top: 20px;
 }
 .about-row .quotes{
-      font-size: 14px;
-      font-family: 'Acme', sans-serif;
-      font-weight: lighter;
+      font-size: 20px;
+      letter-spacing: 1.5px;
+      font-family: 'Lato', sans-serif;
+      font-weight: bolder;
+      color: #00FFFF;
 
 }
 
@@ -956,7 +995,18 @@ h6 {
       line-height: 22px;
       font-weight: 300;
       font-family: Roboto Mono, Courier New, Courier, monospace !important;
+      color: #fff;
 
+}
+
+.about-sec{
+
+      font-size: 18px;
+      letter-spacing: 1.2px;
+      line-height: 25px;
+      font-weight: 300;
+      font-family: 'Lato', sans-serif;
+      color: #FF00FF;
 }
 
 .about-row h3{
@@ -974,6 +1024,7 @@ h6 {
 
 .services-area .services-title h1{
     font-size: 35px;
+    color: #FFFF00;
     font-family: Roboto Mono, Courier New, Courier, monospace !important;
     letter-spacing: 5px;
 }
@@ -983,8 +1034,16 @@ h6 {
 }
 .services-area .services-title p{
     font-size: 18px;
+    color: #00FFFF;
     font-family: Roboto Mono, Courier New, Courier, monospace !important;
     letter-spacing: 1.5px;
+}
+
+.services-area .text-secondary{
+    font-size: 13.5px;
+    color: #FFFF00;
+    font-family: Roboto Mono, Courier New, Courier, monospace !important;
+    letter-spacing: 0.8px;
 }
 
 .services-area .services{
@@ -993,13 +1052,16 @@ h6 {
     height: 21rem;
     margin: 1.5rem 0.5rem;
     transition: .5s ease;
-    color: #fff;
+    color: #FFFF00;
 }
 
 .services-area .services:hover{
-    background: #d9d9d9;
+    background: #999999;
+    color: #00FFFF;
     cursor: pointer;
   }
+
+  
 
   .services-area .services img{
       width: 80px;
@@ -1022,13 +1084,39 @@ h6 {
       }
       .rotatethisabout {
      
-      top: 50%;
-      left: 40%;
+      top: 70%;
+      left: 20%;
+      }
+      .about{
+            height: 450px;
+            margin-top: 50px;
+      }
+
+      .hero-content .about-head{
+            font-size: 50px;
+      }
+
       
 }
-      
+@media(max-width: 375px)
+{
+    
+      .rotatethisabout {
+     
+      top: 65%;
+      left: 20%;
+      }
+      .about{
+            height: 450px;
+            margin-top: 10px;
+      }
+      .about-me{
+            padding-top: 40px;
+      }
+
+
 }
-@media(max-width: 320px)
+@media(max-width: 360px)
 {
       .services-area .services-title{
     padding: 0 0.5rem;
@@ -1041,7 +1129,20 @@ h6 {
       .services-area{
             padding: 7rem 0.2rem;
       }
+      .rotatethisabout {
+     
+      top: 80%;
+      left: 20%;
+      }
+      .about{
+            height: 450px;
+            margin-top: 30px;
+      }
+      .about-me{
+            padding-top: 40px;
+      }
 }
+
 
 @media(min-width: 480px) {
       .rotatethisabout {
@@ -1057,17 +1158,17 @@ h6 {
 }
 
 .hello-title{
-      font-size: 35px;
+      font-size: 60px;
       letter-spacing: 6px;
       line-height: 25px;
-      font-style: 'Roboto'
+      font-family: Roboto Mono, Courier New, Courier, monospace !important;
 }
 
 .hello-desc{
-      font-size: 18px;
-      letter-spacing: 3.5px;
+      font-size: 15px;
+      letter-spacing: 1.5px;
       line-height: 15px;
-      font-style: 'Roboto'
+     font-family: Roboto Mono, Courier New, Courier, monospace !important;
 }
 
 
@@ -1151,3 +1252,11 @@ textarea:focus {
 .next p {
       text-align: right;
 }
+
+.hero-content h1{
+      color: #00FFFF;
+}
+.hero-content h6{
+      color: #00FFFF;
+}
+
