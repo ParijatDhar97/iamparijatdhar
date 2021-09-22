@@ -894,6 +894,14 @@ h6 {
       text-align: left;
 }
 
+.work-sec .quotes{
+      font-size: 20px;
+      letter-spacing: 1.5px;
+      font-family: 'Lato', sans-serif;
+      font-weight: bolder;
+      color: #00FFFF;
+}
+
 @media(max-width: 768px) {
       .hero-content {
             padding-top: 50px;
