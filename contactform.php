@@ -1,19 +1,19 @@
 <?php
 
-if (isset($POST['contact-submit'])) {
+if(!empty($_POST['contact-submit'])) {
 	$name = $POST['contact-name'];
 	$subject = $POST['contact-subject'];
 	$mailFrom = $POST['contact-email'];
 	$message = $POST['contact-project'];
 
-
-	$mailTo ="parijatdhar86@gmail.com";
-	$headers = "From: ".$mailFrom;
-	$txt ="You have received an mail from ".$name."\n\n".$message;
-
-	mail($mailTo, $subject, $txt, $headers);
-	header("Location : index.php?mailsend");
-
-
-
+	$toEmail = "parijatdhar86@gmail.com";
+	$mailHeaders = "From: " . $name . "<". $email .">\r\n";
+	if(mail($toEmail, $subject, $content, $mailHeaders)) {
+	    $message = "Your contact information is received successfully.";
+	    $type = "success";
+	}
 }
+require_once "contactform.php";
+?>
+
+

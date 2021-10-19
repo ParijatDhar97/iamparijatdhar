@@ -81,9 +81,6 @@ html, body {
       }
 }
 
-footer{
-
-}
 
 /*--------------- navigation --------------- */
 nav {
@@ -142,7 +139,7 @@ nav #menu li a:hover {
       text-decoration: none;
 }
 
-#toggle {
+#toggle{
       position: absolute;
       right: 30px;
       top: 20px;
@@ -156,6 +153,7 @@ nav #menu li a:hover {
       visibility: visible;
       opacity: 0;
       color: #fff;
+      
 
 }
 
@@ -227,6 +225,7 @@ nav #menu li a:hover {
             visibility: visible;
             opacity: 1;
             margin-right: 4px;
+            
       }
 
       nav #brand {
@@ -250,19 +249,18 @@ nav #menu li a:hover {
       }
 }
 
-}
+
 @media(max-width: 479px) {
       
       #toggle {
       position: absolute;
       font-weight: 300;
       z-index: 2;
-      cursor: pointer;
-      transition: all 0.3s ease-out;
       visibility: visible;
-      opacity: 0;
+      opacity: 1;
       margin-top: 15px;
       margin-right: 5px;
+     
       }
       nav #brand {
             margin-left: 20px;
@@ -412,7 +410,7 @@ nav #menu li a:hover {
       }
       
 
-      .hero-title h1 {
+      .hero-title h1 .glitch {
             font-size: 30px;
       }
       .rotatethis {
@@ -611,13 +609,13 @@ h6 {
 }
 
 .project1,.image1 {
-      background: url(https://cdn1.expresscomputer.in/wp-content/uploads/2020/03/04094738/Gartner-Summit-Chatbot.png) no-repeat 100%;
+      background: url(https://mhealthintelligence.com/images/site/features/image_%2820%29.png) no-repeat 100%;
       background-size: cover;
       background-position: center;
 }
 
 .project1::after {
-      content: "ChatBot";
+      content: "Health Care ChatBot";
       font-family: "Roboto Mono";
       font-size: 36px;
       position: relative;
@@ -631,13 +629,13 @@ h6 {
 }
 
 .project2, .image2 {
-      background: url(https://offerzen.ghost.io/content/images/2018/08/Inner-blog-image.png) no-repeat 50% 50%;
+      background: url(https://www.comodo.com/images/antispam-for-windows.png) no-repeat 50% 50%;
       background-size: cover;
       background-position: center;
 }
 
 .project2::after {
-      content: "Recommendation System";
+      content: "Spam Classifier";
       font-family: "Roboto Mono";
       font-size: 36px;
       position: relative;
@@ -651,13 +649,13 @@ h6 {
 }
 
 .project3, .image3 {
-      background: url(https://www.geckoboard.com/uploads/web-analytics-dashboard-geckoboard.png) no-repeat 50%;
+      background: url(https://miro.medium.com/max/626/0*SaNg8uUaKCMQSS5g.jpg) no-repeat 50% 50%;
       background-size: cover;
       background-position: center;
 }
 
 .project3::after {
-      content: "Visualisation Dashboard";
+      content: "NIFTY - Stock Price Prediction";
       font-family: "Roboto Mono";
       font-size: 36px;
       position: relative;
@@ -671,12 +669,13 @@ h6 {
 }
 
 .project4, .image4 {
-      background: url(https://technofaq.org/wp-content/uploads/2020/02/web-scraping-620x350.jpg) no-repeat 50% 50%;
+      background: url(https://www.cleantechloops.com/wp-content/uploads/2019/06/inventory-management-system.jpg) no-repeat 50% 50%;
       background-size: cover;
+      background-position: center;
 }
 
 .project4::after {
-      content: "Scraping";
+      content: "Inventory Management System";
       font-family: "Roboto Mono";
       font-size: 36px;
       position: relative;
@@ -684,6 +683,46 @@ h6 {
      
       display: block;
       top: 10%;
+      left: 10px;
+      right: 0;
+      bottom: 0;
+}
+
+.project5,.image5 {
+      background: url(https://image.slidesharecdn.com/braintumor-170806141659/95/brain-tumor-detection-using-image-processing-1-638.jpg?cb=1502029034) no-repeat 50%;
+      background-size: contain;
+      
+}
+
+.project5::after {
+      content: "Brain Tumor Detection";
+      font-family: "Roboto Mono";
+      font-size: 36px;
+      position: relative;
+      color: #fff;
+     
+      display: block;
+      top: 8%;
+      left: 30%;
+      right: 0;
+      bottom: 0;
+}
+
+.project6, .image6 {
+      background: url(https://cdn-japantimes.com/wp-content/uploads/2020/12/np_file_59885.jpeg) no-repeat 50% 50%;
+      background-size: cover;
+      background-position: center;
+}
+
+.project6::after {
+      content: "Olympics Data Analysis";
+      font-family: "Roboto Mono";
+      font-size: 36px;
+      position: relative;
+      color: #fff;
+      
+      display: block;
+      top: 80%;
       left: 10px;
       right: 0;
       bottom: 0;
@@ -713,7 +752,7 @@ h6 {
             top: 25%;
             left: 2%;
             font-size: 22px;
-            color: #333333;
+            color: #000;
             background-color:rgba(192,192,192,0.3);
             
       }
@@ -721,7 +760,7 @@ h6 {
             top: 35%;
             left: 2%;
             font-size: 22px;
-            color: #333333;
+            color: #000;
             background-color:rgba(192,192,192,0.3);
            
       }
@@ -729,7 +768,7 @@ h6 {
             top: 30%;
             left: 2%;
             font-size: 22px;
-            color: #333333;
+            color: #fff;
             background-color:rgba(192,192,192,0.3);
 
       }
@@ -737,7 +776,22 @@ h6 {
             top: 50%;
             left: 2%;
             font-size: 22px;
-            color: #333333;
+            color: #fff;
+            background-color:rgba(15, 1, 1, 0.3);
+      }
+      .project5::after{
+            top: 50%;
+            left: 2%;
+            font-size: 22px;
+            color: #fff;
+            background-color:rgba(192,192,192,0.3);
+            
+      }
+      .project6::after{
+            top: 60%;
+            left: 2%;
+            font-size: 22px;
+            color: #000;
             background-color:rgba(192,192,192,0.3);
       }
 }
@@ -1157,7 +1211,7 @@ h6 {
             display: none !important;
       }
 
-
+}
 
 /*--------------- contact form --------------- */
 
@@ -1170,6 +1224,7 @@ h6 {
       letter-spacing: 6px;
       line-height: 25px;
       font-family: Roboto Mono, Courier New, Courier, monospace !important;
+      color: #00FFFF;
 }
 
 .hello-desc{
@@ -1245,6 +1300,20 @@ textarea:focus {
             margin: 5% -8%;
             width: 98%;
       }
+      .hello-title{
+            font-size: 35px;
+            letter-spacing: 2px;
+            line-height: 25px;
+            font-family: Roboto Mono, Courier New, Courier, monospace !important;
+            color: #00FFFF;
+      }
+      .hello-desc{
+            font-size: 6px;
+            letter-spacing: 0.8px;
+            line-height: 15px;
+           font-family: Roboto Mono, Courier New, Courier, monospace !important;
+      }
+
 }
 
 /*--------------- project page --------------- */
@@ -1268,3 +1337,41 @@ textarea:focus {
       color: #00FFFF;
 }
 
+/*--------------- professional work page --------------- */
+
+
+        .work-h2-exp { font-size: 20px; color:#00FFFF; margin: 0 0 6px 0; position: relative; padding-bottom: 24px; }
+        .work-h2 { font-size: 20px; color:#00FFFF; margin: 0 0 6px 0; position: relative; }
+        .work-h2-exp span { position: absolute; bottom: 0; right: 0; font-style: italic; font-family: Roboto Mono, Courier New, Courier, monospace !important; padding-top: 10px; font-size: 16px; color: #00FFFF; font-weight: normal; }
+        .para-p { margin: 0 0 16px 0; color:#FFFF00; line-height: 10px;}
+        .clear { clear: both; }
+        /*--a { color: #FF00FF; text-decoration: none; border-bottom: 1px dotted #999; }
+        a:hover { border-bottom-style: solid; color: black; }--*/
+        .work-ul { margin: 0 0 25px 15px; color:#FF00FF; }
+        .work-li {color:#FF00FF;}
+        #objective { width: 500px; float: left; }
+        #objective p { font-family: Roboto Mono, Courier New, Courier, monospace !important; font-style: italic; color: #666; }
+        dt { font-style: italic; color:#00FFFF; font-weight: bold; font-size: 18px; text-align: right; padding: 0 26px 0 0; width: 250px; float: left; height: 100px; border-right: 1px solid #999;  }
+        .exp{height: 350px; border-right: 1px solid #999;}
+        dd { width: 400px; float: right; color:#00FFFF;}
+        dd.clear { float: none; margin: 0; height: 15px; }
+
+        @media(max-width: 420px) {
+            
+        h2 {font-size: 20px;font-weight: bold; position: none;}
+        .work-h2-exp { font-size: 16px;position: none; width: 200px;text-align: left; line-height: 15px; padding-top: 10px; }
+        .work-h2 { font-size: 14px; position: none; text-align: left;}
+        .work-h2-exp span {position: none;font-size: 12px;}
+        p{font-size: 14px; letter-spacing: 0.2px;}
+        a { text-decoration: none;}
+        #objective {float: none; }   
+        .work-ul { margin:auto; }
+        .work-li {font-size: 15px; }
+        .exp{ border-right: none; height: 50px; font-size: 18px;}
+        /*--a { font-size: 12px; border-bottom: none;}--*/
+        .small-dd{font-size: 12px;}
+        dd{ width: 280px ;float: none;}
+       
+        dt { height: 50px; font-style: italic;font-weight: bold; text-align: justify; font-size: 22px; float: none; border-right: none;}
+    
+      }
