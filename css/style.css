@@ -1356,7 +1356,7 @@ textarea:focus {
         dd { width: 400px; float: right; color:#00FFFF;}
         dd.clear { float: none; margin: 0; height: 15px; }
 
-        @media(max-width: 420px) {
+        @media(max-width: 460px) {
             
         h2 {font-size: 20px;font-weight: bold; position: none;}
         .work-h2-exp { font-size: 16px;position: none; width: 200px;text-align: left; line-height: 15px; padding-top: 10px; }
